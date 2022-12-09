@@ -62,6 +62,7 @@ app.use(cors())  //cross-origin resource sharing
 // }));
 
 
+
 /// methods 
 // app.use(cors({
 //     methods: ['GET','POST','DELETE','UPDATE','PUT','PATCH']
