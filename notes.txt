@@ -1,0 +1,15 @@
+npm i firebase
+
+// https://firebase.google.com/
+
+//create a project
+
+//clicking on web
+
+// after configuration => continue to console
+
+// select Cloud Firestore => create database
+
+
+/////////////// node js ///////////////
+npm i @google-cloud/storage

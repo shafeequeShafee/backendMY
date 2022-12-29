@@ -1,7 +1,9 @@
 const express = require('express')
 const uploderRouter =express.Router()
-const {saveImage,getImage}=require("../controller/controller")
+const {createUser,updateUser ,deleteUser,uploadFile }=require("../controller/controller")
 
-uploderRouter.post('/saveImage',saveImage)
-uploderRouter.get('/getImage/:id',getImage)
+uploderRouter.post('/uploadFile',uploadFile )
+uploderRouter.post('/createUser',createUser)
+uploderRouter.patch('/updateUser',updateUser)
+uploderRouter.delete('/deleteUser',deleteUser)
 module.exports= uploderRouter
